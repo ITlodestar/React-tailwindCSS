@@ -1,0 +1,61 @@
+.user-profile {
+    margin-bottom: 20px;
+}
+
+.user-profile * {
+    color: var(--grey1);
+}
+
+.user-profile .user-profile-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.user-profile-close {
+    width: 30px;
+    height: 30px;
+}
+
+.user-profile .currency-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.flex-start {
+    justify-content: flex-start !important;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.user-profile .invoice-list {
+    padding: 0;
+}
+
+.user-profile .btn {
+    text-align: center;
+    width: calc(50% - 10px);
+    padding: 10px 20px;
+    background-color: var(--dark2);
+    color: var(--grey1);
+    border-radius: 5px;
+    transition: all .5s;
+    margin-top: 10px;
+}
+
+.user-profile .btn-withdraw:hover {
+    background-color: var(--dark1);
+}
+
+.user-profile .btn-deposit {
+    color: white;
+    background-color: var(--blue2);
+}
+
+.user-profile .btn-deposit:hover {
+    background-color: var(--blue1);
+}
